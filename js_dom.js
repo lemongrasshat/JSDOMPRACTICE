@@ -55,4 +55,28 @@ console.log(AllList);
 // 
 
 
-// QUERRY SELECTOR
+// =++++++QUERRY SELECTOR
+
+
+// you can pretty much any selector clas id tag
+// along with css selector
+// Equivanet to $ in jquery
+// RETURN ONLY SINGLE FIRST
+// Search by class querySelector('.class')
+//// Search by id querySelector('#class')
+ 
+
+//let Query=document.querySelector(type='button');
+//console.log(Query)
+
+// CSS QUERY SELECTOR
+// this give last element from list class text color red
+let LastQuery=document.querySelector('.list-group-item:last-child');
+LastQuery.style.color='red' 
+
+let second=document.querySelector('.list-group-item:nth-child(2)');
+second.style.color='yellow' 
+
+// QUERY SELECTOR ALL 
+
+
