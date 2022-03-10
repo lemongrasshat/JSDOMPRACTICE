@@ -1,1 +1,3 @@
 # JSDOMPRACTICE
+
+Practing JS DOM
